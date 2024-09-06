@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O dia especial</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Um dia, você acorda e decide se aventurar pelo seu quarto em busca da seu animal de estimação.</p>
+            <button class="btn-proximo" data-proximo="1">Procurar embaixo da cama</button>
+            <button class="btn-proximo" data-proximo="2">Procurar em cima do guarda roupa.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você procura na sua cama e seu pet, mas ele não esta lá. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="2">Procurar em cima do guarda roupa</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para cama</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você acha seu pet em cima do guarda roupa.</p>
+            <button class="btn-proximo" data-proximo="5">Fazer carinho</button>
+            <button class="btn-proximo" data-proximo="6">Colocar ração</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você faz carinho em seu pet, ele agradece.</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você coloca ração para seu pet. Ele vai direto comer.</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>É melhor você esperar por ele aparecer, uma hora ele volta.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
